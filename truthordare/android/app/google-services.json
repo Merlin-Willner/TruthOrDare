@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1054677252251",
+    "project_id": "truth-or-dare-id",
+    "storage_bucket": "truth-or-dare-id.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054677252251:android:52ad680c83970f3e2aee3e",
+        "android_client_info": {
+          "package_name": "cs.finalproject.truthordare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054677252251-018q9e003n5f4omjssmh8jaleqj8ajhg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cs.finalproject.truthordare",
+            "certificate_hash": "6056a273bc7eac70d61c76d77bcd3652f7cac0bf"
+          }
+        },
+        {
+          "client_id": "1054677252251-bpgeocqc77q410m4q0fbn818gkcd6spa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHU_O-na_WWybv-_XYDKw-OHhSSTCUHfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054677252251-bpgeocqc77q410m4q0fbn818gkcd6spa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

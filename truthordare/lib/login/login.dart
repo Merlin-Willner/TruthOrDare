@@ -16,7 +16,7 @@ class LoginScreen extends StatelessWidget {
                 child: Text("Truth or Dare",
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 35
+                    fontSize: 50
                   )
                 ),      
             ),
@@ -76,11 +76,11 @@ class LoginButton extends StatelessWidget {
           size: 20,
         ),
         style: TextButton.styleFrom(
-          padding: const EdgeInsets.all(24),
+          padding: const EdgeInsets.all(20),
           backgroundColor: color,
         ),
         onPressed: () => loginMethod(),
-        label: Text(text, textAlign: TextAlign.center),
+        label: Text(text, textAlign: TextAlign.center, style: const TextStyle(fontSize: 20)),
       ),
     );
   }

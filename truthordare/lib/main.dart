@@ -6,6 +6,7 @@ import 'package:truthordare/routes.dart';
 import 'package:truthordare/theme.dart';
 
 
+
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(const App());
@@ -44,6 +45,7 @@ class _AppState extends State<App> {
           return MaterialApp(
             routes: appRoutes,
             theme: appTheme,
+            
           );
         }
 

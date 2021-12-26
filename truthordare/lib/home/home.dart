@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:truthordare/shared/bottom_nav.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -7,11 +8,23 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: ElevatedButton(
-          child: Text('about'),
-          onPressed: () => Navigator.pushNamed(context, '/about'),
+        child: Row(
+          children: [
+            Expanded(
+              child: ElevatedButton(
+                child: const Text('about'),
+                onPressed: () => Navigator.pushNamed(context, '/about'),
+              ),
+            ),
+            const Expanded(
+              child: Text('this is home'),
+            ),
+          ],
+          
         ),
       ),
+      
+      bottomNavigationBar: const BottomNavBar(),
     );
   }
 }

@@ -8,6 +8,7 @@ void main() {
   runApp(const App());
 }
 
+
 /// We are using a StatefulWidget such that we only create the [Future] once,
 /// no matter how many times our widget rebuild.
 /// If we used a [StatelessWidget], in the event where [App] is rebuilt, that

@@ -1,17 +1,22 @@
 import 'package:flutter/material.dart';
-import 'package:truthordare/shared/bottom_nav.dart';
+import 'package:truthordare/services/auth.dart';
 
 class ProfileScreen extends StatelessWidget {
-  const ProfileScreen({ Key? key }) : super(key: key);
+  const ProfileScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
-      body: const Center(
-        child: Text('profile'),
+      appBar: AppBar(
+        title: Text('Profile'),
       ),
-      bottomNavigationBar: const BottomNavBar(),
+      body: ElevatedButton(
+          child: Text('signout'),
+          onPressed: () async {
+            await AuthService().signOut();
+            Navigator.of(context)
+                .pushNamedAndRemoveUntil('/', (route) => false);
+          }),
     );
   }
 }

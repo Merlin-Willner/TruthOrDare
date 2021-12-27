@@ -17,7 +17,7 @@ class TopicsScreen extends StatelessWidget {
               ),
             ),
             const Expanded(
-              child: Text('this is home'),
+              child: Text('this is topics'),
             ),
           ],
           

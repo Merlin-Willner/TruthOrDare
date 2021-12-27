@@ -7,31 +7,43 @@ class ProfileScreen extends StatelessWidget {
 
   get mainAxisAlignment => null;
 
+  get children => null;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Profile'),
-      ),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.end,
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          Expanded(
-            child: ElevatedButton(
-              child: const Text('Go back to Topics'),
-              onPressed: () => Navigator.pushNamed(context, '/topics'),
+      body: 
+      Container(padding: const EdgeInsets.all(20),
+        child: Column(
+
+          mainAxisAlignment: MainAxisAlignment.end,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Expanded(
+              child: RichText(
+                textAlign: TextAlign.center,
+                text: 
+                 
+                  TextSpan(
+                    style: Theme.of(context).textTheme.bodyText1,
+                    children: const <TextSpan>[
+                      TextSpan(text: "\n\n\nAny improvements in mind?\n\n"),
+                      TextSpan(text: "Any idea for a game?"),
+                      TextSpan(text: "Write me on social media"),
+                    ]
+                  ),
+                ),
             ),
-          ),
-          ElevatedButton(
-            child: const Text('signout'),
-            onPressed: () async {
-              await AuthService().signOut();
-              Navigator.of(context)
-                  .pushNamedAndRemoveUntil('/', (route) => false);
-            }
-          ),
-        ],
+            ElevatedButton( 
+              child: const Text('signout'),
+              onPressed: () async {
+                await AuthService().signOut();
+                Navigator.of(context)
+                    .pushNamedAndRemoveUntil('/', (route) => false);
+              }
+            ),
+          ],
+        ),
       ),
       bottomNavigationBar: const BottomNavBar(),
     );

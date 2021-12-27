@@ -14,7 +14,7 @@ class AboutScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Container(
-                padding: const EdgeInsets.fromLTRB(0, 40, 0, 10),
+                padding: const EdgeInsets.fromLTRB(0, 30, 0, 10),
                 child: Center(
                   child: Text('Why Truth or Dare???',
                       style: Theme.of(context).textTheme.bodyText1),
@@ -32,11 +32,11 @@ class AboutScreen extends StatelessWidget {
                             children: const <TextSpan>[
                             TextSpan(
                                 text: "\nWell...\n",
-                                style: TextStyle(color: Colors.blueAccent)),
+                                style: TextStyle(color: Colors.blue)),
                             TextSpan(text: "That Story starts way back in the beginning of 2021, before I even knew about "),
                             TextSpan(
                                 text: "Harvard's CS50",
-                                style: TextStyle(color: Colors.blueAccent)),
+                                style: TextStyle(color: Colors.blue)),
                             TextSpan(
                                 text: " introduction to computer science course.\n\n"),
                             TextSpan(
@@ -44,18 +44,18 @@ class AboutScreen extends StatelessWidget {
                                            " of game like 'Mäxxle', 'Never have i ever' and obviously:\n\n"),
                             TextSpan(
                                 text: "Truth or Dare",
-                                style: TextStyle(color: Colors.blueAccent, fontSize: 25)),
+                                style: TextStyle(color: Colors.blue, fontSize: 25)),
                             TextSpan(
                                 text: "\n\nWe tried out one app after another and had to find out, that most of these apps have a "                               
                                       "fairly small amount of interessting questions and tasks, if you don't want to pay.\n\n"
                                       "It sounds kind of stupid, considering I knew absolutely nothing about programming "
                                       "or computers, but at that time I thought: \nIf someone out there is earning money with"
-                                      " these kind of simple apps, \nwhat am I able to do when I develop greater apps, "
-                                      "\nwhat am I able to do when I implement more features, better tasks and questions?\n\n"
+                                      " these kind of simple apps, \nwhat am I able to do when I develop greater apps?\n"
+                                      "\nWhat am I able to do when I implement more features?\n\nBetter tasks and questions?\n\n\n"
                                       "I think I don't need to tell you that I didn't reach that goal yet XD\n\n"
                                       "To be totally honast I am not even close.\n\nDuring the course there have always been"
                                       " times where things were confusing and absolutely overwhelming(Tideman), \nbut at least there"
-                                      " have been some lectures and notes to look the information up and push through the"
+                                      " have been some lectures and notes to look up the information and push through the"
                                       " problem sets.\n\n"
                                       "Now with this Final Project things went a little different.\n\n"
                                       "-I needed to install VS-Code and lern how to use it.\n"
@@ -69,7 +69,7 @@ class AboutScreen extends StatelessWidget {
                                       ),
                             TextSpan(
                                 text: "I am Merlin and this was CS50.\n\n",
-                                style: TextStyle(color: Colors.blueAccent)),
+                                style: TextStyle(color: Colors.blue)),
                           ],
                         ),
                       )

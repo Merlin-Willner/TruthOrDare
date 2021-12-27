@@ -7,7 +7,7 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        padding: const EdgeInsets.all(30),
+        padding: const EdgeInsets.all(20),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -35,14 +35,15 @@ class LoginScreen extends StatelessWidget {
               color: Colors.blue,
               loginMethod: AuthService().googleLogin,
             ),
-            Flexible(
-              child: LoginButton(
+            //Flexible(
+              //child: 
+              LoginButton(
                 icon: Icons.person_outline,
-                text: 'Continue as Guest',
+                text: 'Try the App as a Guest',
                 loginMethod: AuthService().anonLogin,
-                color: Colors.deepPurple,
+                color: Colors.grey,
               ),
-            ),
+            //),
             
           ],
         ),
@@ -80,7 +81,7 @@ class LoginButton extends StatelessWidget {
           backgroundColor: color,
         ),
         onPressed: () => loginMethod(),
-        label: Text(text, textAlign: TextAlign.center, style: const TextStyle(fontSize: 20)),
+        label: Text(text, textAlign: TextAlign.center, style: const TextStyle(fontSize: 25)),
       ),
     );
   }

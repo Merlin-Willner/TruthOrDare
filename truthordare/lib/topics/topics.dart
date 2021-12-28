@@ -8,16 +8,39 @@ class TopicsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Row(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
+            //Expanded(
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Text('\nGamemodes', style: Theme.of(context).textTheme.bodyText1,),
+                ],
+              ),
+            //),
             Expanded(
-              child: ElevatedButton(
-                child: const Text('about'),
-                onPressed: () => Navigator.pushNamed(context, '/about'),
+              child: Container(
+                padding: const EdgeInsets.all(10),
+                child: ElevatedButton(
+                  child: Text('Civilized mode', style: Theme.of(context).textTheme.bodyText1),
+                  onPressed: () => Navigator.pushNamed(context, '/Civilized'),
+                ),
               ),
             ),
-            const Expanded(
-              child: Text('this is home'),
+            Expanded(
+          
+              child: Container(
+                
+                padding: const EdgeInsets.all(10),
+                child: ElevatedButton(
+                  style: TextButton.styleFrom(backgroundColor: Colors.red, ),
+                  child: Text('Party mode', style: Theme.of(context).textTheme.bodyText1),
+                  
+                  onPressed: () => Navigator.pushNamed(context, '/Party'),
+                ),
+              ),
             ),
           ],
           

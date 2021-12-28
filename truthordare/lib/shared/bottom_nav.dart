@@ -29,12 +29,13 @@ class BottomNavBar extends StatelessWidget {
           label: 'Profile',
         ),
       ],
-      fixedColor: Colors.deepPurple[200],
+      
       onTap: (int idx) {
         switch (idx) {
           case 0:
-            // do nothing
+            Navigator.pushNamed(context, '/topics');
             break;
+            
           case 1:
             Navigator.pushNamed(context, '/about');
             break;

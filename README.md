@@ -35,4 +35,29 @@ At least considering where I started.
 -A Profile Page, with a signout button and another link to my instagram for some user feedback
 
 
+Of course I didn't get there without any source of information, therefore at some points my code may seem familiar with code from:
+-fireship.io's flutter-firebase course,
+-flutters documentation and video series,
+-and some things like for example the URL-Links that I found on Stackoverflow and adapted to my needs
+But the idea, the logic, the Design of the Pages and most of the Navigation was made by myself.
+
+
 Lastly lets quickly go over each file and what they do:
+
+main.dart: 
+   Entry point of my application
+   Basically some boiler plate code from Flutterfire and Fireship to make sure the Login works as expected and make sure there is a connetion                  between the client side app and the cloud
+
+pubspec.yaml: 
+   added all of the dependencies that I needed for my google sign in, my url launcher 
+   and firestore (which will be used in the future as the app gets more features)
+              
+google-services.json: 
+   this file was automatically created by Firebase, when I added the app to Firebase
+   contains all of my Fireship credentials
+
+build.gradle & build.gradle:
+   Copied the code from the instructions on Firebase
+   And after some errors and some modifications now it doesn't throw errors around.
+   This was basically the hardest part of my app, because even though I had the fireship course and the official docs, I went from one error to another        without understanding what the error messenges ment.
+

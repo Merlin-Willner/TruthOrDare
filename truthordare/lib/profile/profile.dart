@@ -28,20 +28,32 @@ class ProfileScreen extends StatelessWidget {
                   TextSpan(
                     style: Theme.of(context).textTheme.bodyText1,
                     children: const <TextSpan>[
-                      TextSpan(text: "\n\n\nAny improvements in mind?\n\n"),
-                      TextSpan(text: "Any idea for a game?"),
+                      TextSpan(text: "\n\n\nAny improvements in mind?\n\n", style: TextStyle(fontSize: 30)),
+                      TextSpan(text: "Any idea for a game?\n\n"),
                       TextSpan(text: "Write me on social media"),
                     ]
                   ),
                 ),
             ),
 
-            Expanded(
-            child: Center(
+            //Expanded(
+            Center(
+              
+
+
               child: 
                 ElevatedButton(
-                  
-                  child: Text("merlin_willner\n Instagram", style: Theme.of(context).textTheme.bodyText1),
+                  style: TextButton.styleFrom(backgroundColor: Colors.red, ),
+                  child: Center(
+                    
+                    child:  Column(
+                      children: const [
+                     Text("merlin_willner", style: TextStyle(fontSize: 25)),
+                     Text("Instagram", style: TextStyle(fontSize: 25)),]
+                    ),
+                  ),
+
+                 // child: Text("merlin_willner\n Instagram", style: TextStyle(fontSize: 25)),
                   onPressed: () async {
                     const url = 'https://www.instagram.com/merlin_willner';
 
@@ -49,12 +61,12 @@ class ProfileScreen extends StatelessWidget {
                       await launch(url);
                     }
                   },
-                ),),),
+                ),),
             
 
 
             ElevatedButton( 
-              child: Text('signout', style: Theme.of(context).textTheme.bodyText1),
+              child: Text('signout', style: TextStyle(fontSize: 25)),
               onPressed: () async {
                 await AuthService().signOut();
                 Navigator.of(context)

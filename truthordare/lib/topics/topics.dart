@@ -16,7 +16,7 @@ class TopicsScreen extends StatelessWidget {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Text('\nGamemodes', style: Theme.of(context).textTheme.headline1,),
+                  Text('\nGamemodes', style: Theme.of(context).textTheme.bodyText1,),
                 ],
               ),
             //),
@@ -24,18 +24,21 @@ class TopicsScreen extends StatelessWidget {
               child: Container(
                 padding: const EdgeInsets.all(10),
                 child: ElevatedButton(
-                  child: Text('Truth or Dare\nCivilized mode', style: Theme.of(context).textTheme.bodyText1),
-                  onPressed: () => Navigator.pushNamed(context, '/TorD'),
+                  child: Text('Civilized mode', style: Theme.of(context).textTheme.bodyText1),
+                  onPressed: () => Navigator.pushNamed(context, '/Civilized'),
                 ),
               ),
             ),
             Expanded(
+          
               child: Container(
+                
                 padding: const EdgeInsets.all(10),
                 child: ElevatedButton(
-                  child: Text('Truth or Dare\nParty mode', style: Theme.of(context).textTheme.bodyText1),
+                  style: TextButton.styleFrom(backgroundColor: Colors.red, ),
+                  child: Text('Party mode', style: Theme.of(context).textTheme.bodyText1),
                   
-                  onPressed: () => Navigator.pushNamed(context, '/TorD'),
+                  onPressed: () => Navigator.pushNamed(context, '/Party'),
                 ),
               ),
             ),

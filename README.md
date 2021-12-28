@@ -28,36 +28,79 @@ At least considering where I started.
 -A Topics Page, where you can choose between a 'civilized mode' and a 'Party mode'
 
 -An About Page, where I kind of describe my motivation and how this journey went.
-   In addition there are two links: 
-     one to Harvards CS50 Page and 
-     one to my Instagram account.
+   In addition there are two links:                                                 
+     one to Harvards CS50 Page and                                                          
+     one to my Instagram account.                                                     
 
 -A Profile Page, with a signout button and another link to my instagram for some user feedback
 
 
 Of course I didn't get there without any source of information, therefore at some points my code may seem familiar with code from:
--fireship.io's flutter-firebase course,
--flutters documentation and video series,
--and some things like for example the URL-Links that I found on Stackoverflow and adapted to my needs
-But the idea, the logic, the Design of the Pages and most of the Navigation was made by myself.
+-fireship.io's flutter-firebase course,                                                                                                              
+-flutters documentation and video series,                                                                                            
+-and some things like for example the URL-Links that I found on Stackoverflow and adapted to my needs 
+
+To make things a little bit shorter:                                                                 
+-the idea, the logic of the usage, the Design of the Pages (every Page you actually see inside the app) and most of the navigation are made by myself        -the Google login, the logic behind the login and Design of the folders are mostly copied from fireship or the official docs                     
 
 
-Lastly lets quickly go over each file and what they do:
+Lastly lets quickly go over some of the files what they do and where they come from:                                             
 
-main.dart: 
+main.dart:                                                                                            
    Entry point of my application
    Basically some boiler plate code from Flutterfire and Fireship to make sure the Login works as expected and make sure there is a connetion                  between the client side app and the cloud
 
-pubspec.yaml: 
+pubspec.yaml:                                                                          
    added all of the dependencies that I needed for my google sign in, my url launcher 
    and firestore (which will be used in the future as the app gets more features)
               
-google-services.json: 
+google-services.json:                                                                     
    this file was automatically created by Firebase, when I added the app to Firebase
    contains all of my Fireship credentials
 
-build.gradle & build.gradle:
+build.gradle & build.gradle:                                                                               
    Copied the code from the instructions on Firebase
    And after some errors and some modifications now it doesn't throw errors around.
    This was basically the hardest part of my app, because even though I had the fireship course and the official docs, I went from one error to another        without understanding what the error messenges ment.
+   
+auth.dart, home.dart, login.dart:
+   handel the Login, are mostly from fireship but modified in the design
 
+shared directory:
+   uses a barrel pattern design with shared.dart so that you only have to user one import for multiple files
+   contains a basic error, loading and navigation bar from fireship, that I modified for my usage 
+
+routes.dart:                                   
+   contains all the routing that the app needs in order to go from one to another page
+   
+theme.dart:
+   contains some Themes that I have used on different pages on the app, in order to make things more consistent
+
+
+And now to the pages we actually see in the app
+
+
+topics.dart:                                                                                                               
+   This lets the user select one of two Gamemodes.
+   Civilized mode will be for getting to know someone, that you are not so comfortable with yet or just want to have some not as intimate tasks or            questions.
+   
+   Party mode will get more tasks and questions next year, when I can meet my friends again and play and party a little bit. The idea behind Partymode is      to get to know someone or a group of people even more for the ones who are more comfortable with deep talk and bold tasks.
+   
+   When clicked on one of the tho buttons your get to 
+   
+CivilizedMode.dart & PartyMode.dart:                                                                                                   
+   That's where the game is beeing played.                                                                                                  
+   On the bottom are two buttons, when clicked a Truth or a Dare pop up.                                                                
+   One litte detail is the iteration on the truth's and dare's is done by one single int i, so that there is a little bit of randomness in the order of the    Questions and Tasks.
+   To go back the user can just tap on the top Navigation Bar.
+
+about.dart:                                                                                             
+   On this page I discribe how I came to the game 'Truth or Dare' and how my journey in this course was.
+   There are also two links one to Harvards CS50 Website and one to my Instagram
+   
+profile.dart:                                                                                                              
+   On this page I basically ask for some feedback with another kind of link to my Instagram
+   and a button to signout from the app.
+
+   
+ 

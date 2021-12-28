@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:truthordare/services/auth.dart';
 import 'package:truthordare/shared/bottom_nav.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({Key? key}) : super(key: key);
@@ -34,6 +35,23 @@ class ProfileScreen extends StatelessWidget {
                   ),
                 ),
             ),
+
+            Expanded(
+            child: Center(
+              child: 
+                ElevatedButton(
+                  child: Text("merlin_willner Instagram"),
+                  onPressed: () async {
+                    const url = 'https://www.instagram.com/merlin_willner';
+
+                    if (await canLaunch(url)) {
+                      await launch(url);
+                    }
+                  },
+                ),),),
+            
+
+
             ElevatedButton( 
               child: const Text('signout'),
               onPressed: () async {

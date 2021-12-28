@@ -40,7 +40,8 @@ class ProfileScreen extends StatelessWidget {
             child: Center(
               child: 
                 ElevatedButton(
-                  child: Text("merlin_willner Instagram"),
+                  
+                  child: Text("merlin_willner\n Instagram", style: Theme.of(context).textTheme.bodyText1),
                   onPressed: () async {
                     const url = 'https://www.instagram.com/merlin_willner';
 
@@ -53,7 +54,7 @@ class ProfileScreen extends StatelessWidget {
 
 
             ElevatedButton( 
-              child: const Text('signout'),
+              child: Text('signout', style: Theme.of(context).textTheme.bodyText1),
               onPressed: () async {
                 await AuthService().signOut();
                 Navigator.of(context)

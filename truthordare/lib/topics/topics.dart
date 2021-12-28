@@ -24,7 +24,7 @@ class TopicsScreen extends StatelessWidget {
               child: Container(
                 padding: const EdgeInsets.all(10),
                 child: ElevatedButton(
-                  child: Text('Truth or Dare\nCivilized mode', style: Theme.of(context).textTheme.bodyText2),
+                  child: Text('Truth or Dare\nCivilized mode', style: Theme.of(context).textTheme.bodyText1),
                   onPressed: () => Navigator.pushNamed(context, '/about'),
                 ),
               ),
@@ -33,8 +33,9 @@ class TopicsScreen extends StatelessWidget {
               child: Container(
                 padding: const EdgeInsets.all(10),
                 child: ElevatedButton(
-                  child: Text('Truth or Dare\nParty mode', style: Theme.of(context).textTheme.bodyText2),
-                  onPressed: () => Navigator.pushNamed(context, 'https://www.youtube.com'),
+                  child: Text('Truth or Dare\nParty mode', style: Theme.of(context).textTheme.bodyText1),
+                  
+                  onPressed: () => Navigator.pushNamed(context, '/about'),
                 ),
               ),
             ),

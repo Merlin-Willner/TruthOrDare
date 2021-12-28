@@ -25,7 +25,7 @@ class TopicsScreen extends StatelessWidget {
                 padding: const EdgeInsets.all(10),
                 child: ElevatedButton(
                   child: Text('Truth or Dare\nCivilized mode', style: Theme.of(context).textTheme.bodyText1),
-                  onPressed: () => Navigator.pushNamed(context, '/about'),
+                  onPressed: () => Navigator.pushNamed(context, '/TorD'),
                 ),
               ),
             ),
@@ -35,7 +35,7 @@ class TopicsScreen extends StatelessWidget {
                 child: ElevatedButton(
                   child: Text('Truth or Dare\nParty mode', style: Theme.of(context).textTheme.bodyText1),
                   
-                  onPressed: () => Navigator.pushNamed(context, '/about'),
+                  onPressed: () => Navigator.pushNamed(context, '/TorD'),
                 ),
               ),
             ),

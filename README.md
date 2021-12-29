@@ -59,7 +59,7 @@ At least considering where I started.
               
 #### google-services.json:                                                                     
    - this file was automatically created by Firebase, when I added the app to Firebase
-   contains all of my Fireship credentials
+   contains all of my Firebase credentials
 
 #### build.gradle & build.gradle:                                                                               
    - Copied the code from the instructions on Firebase

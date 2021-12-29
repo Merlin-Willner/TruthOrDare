@@ -94,7 +94,7 @@ At least considering where I started.
 #### CivilizedMode.dart & PartyMode.dart:                                                                                                   
    - That's where the game is beeing played.                                                                                                  
    - On the bottom are two buttons, when clicked a Truth or a Dare pop up.                                                                
-   - One litte detail is the iteration on the truth's and dare's is done by one single int i, so that there is a little bit of randomness in the order of        the Questions and Tasks.
+   - One little detail is the iteration on the truth's and dare's is done by one single int i, so that there is a little bit of randomness in the order of        the Questions and Tasks.
    - To go back the user can just tap on the top Navigation Bar.
 
 #### about.dart:                                                                                             

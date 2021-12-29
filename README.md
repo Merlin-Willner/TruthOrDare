@@ -18,7 +18,7 @@ Furthermore this question occurred:
 > "What might you consider to be a good outcome for your project? A better outcome? The best outcome?"
 
 The best outcome would have been to make the best app available out there.
-But let's be realistically: 
+#### But let's be realistically:                                    
 That probably is not the case when you are limited to only 2 Month, don't know the language, the framework, git & github and the ide.
 
 So I think the outcome that I have right now is somewhere on the better end of good.

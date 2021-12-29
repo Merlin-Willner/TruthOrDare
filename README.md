@@ -1,5 +1,5 @@
-First of all a huge thanks to everyone from the CS50 stuff, who made all of this even possible.                                   
-Without you I may not have have started this whole Journey.
+First of all a huge thanks to everyone from the CS50 stuff, who made all of this possible.                                   
+Without you I may not have even started this whole Journey.                                                        
 ***You literlly changed my life...***
 
 ### But now lets go on with the reason why I chose to make this Truth or Dare App as my Final Project:
@@ -7,7 +7,7 @@ Basically I had a tradition with some of my friends, that everytime we met, we p
 
 **_Truth or Dare_**
 
-There is more than just that but that is also described inside the app on the 'About' Page.
+There is more than just that, but that is also described inside the app on the 'About' Page.
 
 The Idea was to make the best Party-Game-App available on the market with multiple games, a messanger and different Events.
 But as discribed on the official Final Project Page:
@@ -31,7 +31,7 @@ At least considering where I started.
 
 - an About Page, where I kind of describe my motivation and how this journey went.
    In addition there are two links:                                                 
-    -  one to Harvards CS50 Page and                                                          
+    - one to Harvards CS50 Page and                                                          
     - one to my Instagram account.                                                     
 
 - a Profile Page, with a signout button and another link to my instagram for some user feedback
@@ -40,13 +40,14 @@ At least considering where I started.
 ### Of course I didn't get there without any source of information, therefore at some points my code may seem familiar with code from:
 - fireship.io's flutter-firebase course,                                                                                                              
 - flutters documentation and video series,                                                                                            
-- and some things like for example the URL-Links that I found on Stackoverflow and adapted to my needs 
+- and some other sources like for example the URL-Links that I found on Stackoverflow and adapted to my needs 
 
 ### To make things a little bit shorter:                                                                 
-- the idea, the logic of the usage, the Design of the Pages (every Page you actually see inside the app) and most of the navigation are made by myself      - the Google login, the logic behind the login and Design of the folders are mostly copied from fireship or the official docs                     
+- The idea, the logic of the usage, the Design of the Pages (every Page you actually see inside the app) and most of the navigation are made by myself. 
+- The Google login, the logic behind the login and the Design of the folders are mostly copied from fireship or the official docs.                     
 
 
-##Lastly lets quickly go over some of the files what they do and where they come from:                                             
+## Lastly lets quickly go over some of the files what they do and where they come from:                                             
 
 #### main.dart:                                                                                            
    Entry point of my application

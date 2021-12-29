@@ -47,7 +47,7 @@ At least considering where I started.
 - The Google login, the logic behind the login and the Design of the folders are mostly copied from fireship or the official docs.                     
 
 
-## Lastly lets quickly go over some of the files what they do and where they come from:                                             
+## Lastly lets quickly go over some of the files, what they do and where they come from:                                             
 
 #### main.dart:                                                                                            
    - Entry point of my application

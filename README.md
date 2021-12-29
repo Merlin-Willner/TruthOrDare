@@ -5,7 +5,7 @@ You literlly changed my life...
 But now lets go on with the reason why I chose to make this Truth or Dare App as my Final Project:
 Basically I had a tradition with some of my friends, that everytime we met, we played some kind of game like 'Mäxxle', 'Never have I ever' and obviosly:
 
-Truth or Dare
+#Truth or Dare
 
 There is more than just that but that is also described inside the app on the 'About' Page.
 

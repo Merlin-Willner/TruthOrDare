@@ -11,9 +11,11 @@ There is more than just that but that is also described inside the app on the 'A
 
 The Idea was to make the best Party-Game-App available on the market with multiple games, a messanger and different Events.
 But as discribed on the official Final Project Page:
-> "In the world of software, most everything takes longer to implement than you expect. And so it’s not uncommon to accomplish less in a fixed amount of time than you hope." <
+> "In the world of software, most everything takes longer to implement than you expect. And so it’s not uncommon to accomplish less in a fixed amount of time than you hope."
+
 Furthermore this question occurred:
-> "What might you consider to be a good outcome for your project? A better outcome? The best outcome?" <
+
+> "What might you consider to be a good outcome for your project? A better outcome? The best outcome?"
 
 The best outcome would have been to make the best app available out there.
 But let's be realistically: 

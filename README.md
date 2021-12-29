@@ -1,4 +1,4 @@
-First of all a huge thanks to everyone from the CS50 stuff, who made all of this even possible.
+First of all a huge thanks to everyone from the CS50 stuff, who made all of this even possible.                                   
 Without you I may not have have started this whole Journey.
 ***You literlly changed my life...***
 

@@ -44,6 +44,7 @@ class _AppState extends State<App> {
         // Once complete, show your application
         if (snapshot.connectionState == ConnectionState.done) {
           return MaterialApp(
+            debugShowCheckedModeBanner: false, 
             routes: appRoutes,
             theme: appTheme,
             

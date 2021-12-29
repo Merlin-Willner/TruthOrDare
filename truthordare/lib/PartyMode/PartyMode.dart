@@ -11,14 +11,11 @@ List<String> Truth = [
   'Truth comming soon 4?',
 ];
 List<String> Dare = [
-  'Dare comming soon 1?',
-  'Dare comming soon 2?',
-  'Dare comming soon 3?',
+  'Dare comming soon 1!',
+  'Dare comming soon 2!',
+  'Dare comming soon 3!',
 ];
  
-
-
-
 class PartyModeScreen extends StatefulWidget {
   const PartyModeScreen({Key? key}) : super(key: key);
   
@@ -40,7 +37,7 @@ class _PartyModeScreen extends State<PartyModeScreen> {
         children: [
           Container(
             padding: const EdgeInsets.all(20),
-            child: Text(task),
+            child: Text(task, style: const TextStyle(fontSize: 25)),
             //color: Colors.grey,
             width: 100,
             height: 300,
@@ -71,7 +68,7 @@ class _PartyModeScreen extends State<PartyModeScreen> {
                     color: Colors.blue,
                   ),
                   child: const Center(
-                    child: Text('Truth'),
+                    child: Text('Truth', style: TextStyle(fontSize: 25)),
                   ),
                   transform: Matrix4.rotationZ(0.05),
                   height: 90,
@@ -99,7 +96,7 @@ class _PartyModeScreen extends State<PartyModeScreen> {
                     color: Colors.red,
                   ),
                   child: const Center(
-                    child: Text('Dare'),
+                    child: Text('Dare', style: TextStyle(fontSize: 25)),
                   ),
                   transform: Matrix4.rotationZ(0.05),
                   height: 90,

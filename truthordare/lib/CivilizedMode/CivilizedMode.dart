@@ -11,10 +11,10 @@ List<String> Truth = [
   'What is your dream job and why?',
 ];
 List<String> Dare = [
-  'The other Players have to give you a task that is out of your comfort zone\nDO SOMETHING BOLD!',
-  'Go to the person to your right and sit on her/his lap for the rest of this round.',
-  'Act for the rest of the round like an absolut asshole, you have to insult everybody',
-  'You are now the buttler for everyone. Good luck ;)',
+  'The other Players have to give you a task that is out of your comfort zone.\nDO SOMETHING BOLD!',
+  'Go to the person to your right and sit on her/his lap for the rest of this round!',
+  'Act for the rest of the round like an absolut asshole, you have to insult everybody!',
+  'You are now the buttler for everyone! Good luck. ;)',
 ];
  
 
@@ -40,7 +40,7 @@ class _CivilizedModeScreen extends State<CivilizedModeScreen> {
         children: [
           Container(
             padding: const EdgeInsets.all(20),
-            child: Text(task),
+            child: Text(task, style: const TextStyle(fontSize: 25)),
             //color: Colors.grey,
             width: 100,
             height: 300,
@@ -71,7 +71,7 @@ class _CivilizedModeScreen extends State<CivilizedModeScreen> {
                     color: Colors.blue,
                   ),
                   child: const Center(
-                    child: Text('Truth'),
+                    child: Text('Truth', style: TextStyle(fontSize: 25),),
                   ),
                   transform: Matrix4.rotationZ(0.05),
                   height: 90,
@@ -99,7 +99,7 @@ class _CivilizedModeScreen extends State<CivilizedModeScreen> {
                     color: Colors.red,
                   ),
                   child: const Center(
-                    child: Text('Dare'),
+                    child: Text('Dare', style: TextStyle(fontSize: 25)),
                   ),
                   transform: Matrix4.rotationZ(0.05),
                   height: 90,

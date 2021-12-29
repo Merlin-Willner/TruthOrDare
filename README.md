@@ -37,16 +37,16 @@ At least considering where I started.
 - a Profile Page, with a signout button and another link to my instagram for some user feedback
 
 
-Of course I didn't get there without any source of information, therefore at some points my code may seem familiar with code from:
+### Of course I didn't get there without any source of information, therefore at some points my code may seem familiar with code from:
 - fireship.io's flutter-firebase course,                                                                                                              
 - flutters documentation and video series,                                                                                            
 - and some things like for example the URL-Links that I found on Stackoverflow and adapted to my needs 
 
-To make things a little bit shorter:                                                                 
+### To make things a little bit shorter:                                                                 
 - the idea, the logic of the usage, the Design of the Pages (every Page you actually see inside the app) and most of the navigation are made by myself      - the Google login, the logic behind the login and Design of the folders are mostly copied from fireship or the official docs                     
 
 
-Lastly lets quickly go over some of the files what they do and where they come from:                                             
+##Lastly lets quickly go over some of the files what they do and where they come from:                                             
 
 #### main.dart:                                                                                            
    Entry point of my application

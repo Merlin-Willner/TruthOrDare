@@ -40,8 +40,8 @@ class AboutScreen extends StatelessWidget {
                                 text: "Harvard's CS50",
                                 style: const TextStyle(color: Colors.blue, fontWeight: FontWeight.bold, decoration: TextDecoration.underline),
                                 recognizer: TapGestureRecognizer() ..onTap = () async {
-                                  if (await canLaunch("https://pll.harvard.edu/course/cs50") == true) {
-                                    launch("https://pll.harvard.edu/course/cs50");
+                                  if (await canLaunch("https://pll.harvard.edu/course/cs50-introduction-computer-science?delta=0") == true) {
+                                    launch("https://pll.harvard.edu/course/cs50-introduction-computer-science?delta=0");
                                   }
                                   else {
                                     print("Can't launch URL");

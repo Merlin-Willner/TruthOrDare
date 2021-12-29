@@ -16,9 +16,6 @@ List<String> Dare = [
   'Dare comming soon 3!',
 ];
  
-
-
-
 class PartyModeScreen extends StatefulWidget {
   const PartyModeScreen({Key? key}) : super(key: key);
   

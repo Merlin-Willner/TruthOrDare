@@ -2,7 +2,7 @@ First of all a huge thanks to everyone from the CS50 stuff, who made all of this
 Without you I may not have have started this whole Journey.
 ***You literlly changed my life...***
 
-## But now lets go on with the reason why I chose to make this Truth or Dare App as my Final Project:
+# But now lets go on with the reason why I chose to make this Truth or Dare App as my Final Project:
 Basically I had a tradition with some of my friends, that everytime we met, we played some kind of game like 'Mäxxle', 'Never have I ever' and obviosly:
 
 **_Truth or Dare_**

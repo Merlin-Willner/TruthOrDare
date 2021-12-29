@@ -64,7 +64,7 @@ At least considering where I started.
 #### build.gradle & build.gradle:                                                                               
    - Copied the code from the instructions on Firebase
    - And after some errors and some modifications now it doesn't throw errors around.
-   - ***This was basically the hardest part of my app, because even though I had the fireship course and the official docs, I somehow went from one error to another without understanding what the error messenges ment.
+   - ***This (in combination with the pubspec.yaml file) was basically the hardest part of my app, because even though I had the fireship course and the official docs, I somehow went from one error to another without understanding what the error messenges ment.***
    
 #### auth.dart, home.dart, login.dart:
    - handel the Login, are mostly from fireship but modified in the design

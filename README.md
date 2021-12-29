@@ -34,7 +34,7 @@ At least considering where I started.
     -  one to Harvards CS50 Page and                                                          
     - one to my Instagram account.                                                     
 
-- A Profile Page, with a signout button and another link to my instagram for some user feedback
+- a Profile Page, with a signout button and another link to my instagram for some user feedback
 
 
 Of course I didn't get there without any source of information, therefore at some points my code may seem familiar with code from:

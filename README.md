@@ -5,7 +5,7 @@ You literlly changed my life...
 But now lets go on with the reason why I chose to make this Truth or Dare App as my Final Project:
 Basically I had a tradition with some of my friends, that everytime we met, we played some kind of game like 'Mäxxle', 'Never have I ever' and obviosly:
 
-#Truth or Dare
+## Truth or Dare
 
 There is more than just that but that is also described inside the app on the 'About' Page.
 
@@ -23,25 +23,25 @@ So I think the outcome that I have right now is somewhere on the better end of g
 At least considering where I started.
 
 
--What I have now is a Truth or Dare App that has a Loginpage with Google Signin and a Guest Signin.
+- What I have now is a Truth or Dare App that has a Loginpage with Google Signin and a Guest Signin.
 
--A Topics Page, where you can choose between a 'civilized mode' and a 'Party mode'
+- A Topics Page, where you can choose between a 'civilized mode' and a 'Party mode'
 
--An About Page, where I kind of describe my motivation and how this journey went.
+- An About Page, where I kind of describe my motivation and how this journey went.
    In addition there are two links:                                                 
      one to Harvards CS50 Page and                                                          
      one to my Instagram account.                                                     
 
--A Profile Page, with a signout button and another link to my instagram for some user feedback
+- A Profile Page, with a signout button and another link to my instagram for some user feedback
 
 
 Of course I didn't get there without any source of information, therefore at some points my code may seem familiar with code from:
--fireship.io's flutter-firebase course,                                                                                                              
--flutters documentation and video series,                                                                                            
--and some things like for example the URL-Links that I found on Stackoverflow and adapted to my needs 
+- fireship.io's flutter-firebase course,                                                                                                              
+- flutters documentation and video series,                                                                                            
+- and some things like for example the URL-Links that I found on Stackoverflow and adapted to my needs 
 
 To make things a little bit shorter:                                                                 
--the idea, the logic of the usage, the Design of the Pages (every Page you actually see inside the app) and most of the navigation are made by myself        -the Google login, the logic behind the login and Design of the folders are mostly copied from fireship or the official docs                     
+- the idea, the logic of the usage, the Design of the Pages (every Page you actually see inside the app) and most of the navigation are made by myself      - the Google login, the logic behind the login and Design of the folders are mostly copied from fireship or the official docs                     
 
 
 Lastly lets quickly go over some of the files what they do and where they come from:                                             

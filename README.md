@@ -1,3 +1,10 @@
+# TruthOrDare
+
+#### Video Demo: https://youtu.be/NkwLrLG_pwg
+
+#### Description: 
+
+
 First of all a huge thanks to everyone from the CS50 stuff, who made all of this possible.                                   
 Without you I may not have even started this whole Journey.                                                        
 ***You literlly changed my life...***
